@@ -1,0 +1,852 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.chu-header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    
+}
+
+
+
+
+.nav{
+    margin:20px;
+}
+
+
+.nav-item{
+    margin-top:4px;
+}
+
+#demand{
+    margin-top:80px;
+}
+
+
+#rounded{
+    color:bisque;
+    background-color: rgba(254, 201, 189, 0.5);
+    font-weight: bold;
+    width: 170px;
+    padding:3px;
+    border-radius: 50px;
+    font-size: 11px;
+    padding-left: 8px;
+    float: left;
+}
+
+#web{
+    color:aqua;
+    background-color:rgba(136, 230, 247, 0.5);
+    font-weight: bold;
+    width: 130px;
+    padding:3px;
+    border-radius: 50px;
+    font-size: 11px;
+    padding-left: 10px;
+    float: left;
+    margin-left: 10px;
+
+}
+.small-screen{
+    margin-top: 150px;
+    margin-left:0px;
+}
+.icons{
+    width: 100%;
+}
+input::placeholder{
+    color: rgb(214, 214, 214);;
+}
+
+
+/* Extra small size */
+@media (min-width:100px){
+     .logo{
+        margin-top:30px;
+        margin-left: 25px;
+    }
+    #grow{
+        margin-top: 70px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.5em;
+        padding-bottom: 15px;
+        color: white;
+    }
+    #learn{
+        font-size:18px;
+        line-height: 1.5em;
+        font-weight: bold;
+        color: white;
+    }
+    .log{
+        padding-bottom: 0px;
+        border-radius: 6px;
+        background-color:transparent;
+        font-weight: bold;
+        padding: 10px 13px;
+        color: blue;
+    }
+    
+    .sign{
+        padding-bottom: 0px;
+        outline:none;
+        border:none;
+        border-radius: 6px;
+        background-color: orangered;
+        padding: 10px 13px;
+        font-weight: bold;
+    }
+    .join{
+        position: relative;
+        top: 75px;
+        font-size:28px
+      }
+    .fa-user{
+        position: absolute;
+        top: 100px;
+        left: 70px;
+        transform: translate(-50% -50%);
+    }
+    .fa-envelope{
+        position: absolute;
+        top: 170px;
+        left: 70px;
+        transform: translate(-50% -50%);
+    }
+    .fa-lock{
+        position: absolute;
+        top: 235px;
+        left: 70px;
+        transform: translate(-50% -50%);
+    }
+    .image{
+        text-align: center;
+        position: unset;
+        left:unset; 
+    }
+    .image-1{
+        text-align: center;
+        position: unset;
+        left:unset; 
+    }
+    .money{
+        margin-left:41.5%;
+    }
+    .money1{
+        margin-left:35.7%;
+    }
+    .money-1{
+        padding-left: 5px;
+    }
+    .connectivity-picture{
+        padding-top:70px;
+    }
+    .money-2{
+        margin-left: -2px;
+    }
+
+}
+
+
+
+    /*small screen */
+@media (min-width:576px){
+    .logo{
+        margin:24px;
+        margin-top:30px;
+    }
+.demand{
+    padding-top:0px ;
+    padding-left:20px ;
+    padding-right:0px ;
+    color: white;
+} 
+#grow{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+#learn{
+    font-size:23px;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+.button-2{
+    padding-top:40px;
+}
+.small-screen{
+    margin-left: auto;
+    margin-right: auto  ;
+    width: 100%;
+    
+}
+.log{
+    padding-bottom: 10px;
+    border-radius: 6px;
+    background-color:transparent;
+    font-weight: bold;
+    padding: 1px 13px;
+    color: blue;
+}
+
+.sign{
+    padding-bottom: 0px;
+    outline:none;
+    border:none;
+    border-radius: 6px;
+    background-color: orangered;
+    padding: 1px 13px;
+    font-weight: bold;
+}
+
+.image{
+    margin-top:50px;
+    padding: 10px 10px;
+    width: 105px;
+    height: 105px;
+    text-align: center;
+    position: unset;
+    left: unset; 
+    
+}
+.image-1{
+    margin-top:50px;
+    padding: 10px 10px;
+    width: 105px;
+    height: 105px;
+    text-align: center;
+    position: unset;
+    left: unset; 
+    
+}
+.form-1{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.join{
+    position: relative;
+    top: 75px;
+    font-size:28px
+  }
+  .fa-user{
+    position: absolute;
+    top: 175px;
+    left: 70px;
+    transform: translate(-50% -50%);
+}
+.fa-envelope{
+    position: absolute;
+    top: 244px;
+    left: 70px;
+    transform: translate(-50% -50%);
+}
+.fa-lock{
+    position: absolute;
+    top: 308px;
+    left: 70px;
+    transform: translate(-50% -50%);
+}
+.most-img{
+    height: 200px;
+}
+/* .all{
+    max-width:500px;
+    position: relative;
+    left: 35px;
+    right: 0px;
+}
+.all-1{
+    width:480px;
+    position: relative;
+    left: 50px;
+    right: 0px;
+}
+.all-2{
+    width:480px;
+    position: relative;
+    left: 50px;
+} */
+.money{
+    margin-left:61.5%;
+}
+.money-1{
+    padding-left: 5px;
+}
+ /*small screen and Extra small size*/}
+
+    /*medium screen size*/
+    @media (min-width:768px){
+        .logo{
+            margin:24px;
+            margin-top:30px;
+        }
+    .demand{
+        /* padding: 130px 50px; */
+        padding-top:30px;
+        padding-bottom: 50px;
+        color: white;
+        padding-left: 40px;
+        margin-right: -10px; 
+    } 
+    #grow{
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 1.5em;
+        padding-bottom: 15px;
+    }
+
+    #learn{
+        font-size:23px;
+        line-height: 1.5em;
+        font-weight: bold;
+    }
+    .join{
+        position: relative;
+        top: 75px;
+        font-size:28px
+    }
+    .small-screen{
+        margin-left: 0px;
+    }
+    .log{
+        padding-bottom: 10px;
+        border-radius: 6px;
+        background-color:transparent;
+        padding: 0px 23px;
+        font-weight: bold;
+        color: blue;
+    }
+
+    .sign{
+        padding-bottom: 0px;
+        outline:none;
+        border:none;
+        border-radius: 6px;
+        background-color: orangered;
+        padding: 1px 23px;
+        font-weight: bold;
+    }
+    .image{
+        padding:10px 10px;
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+        text-align: center;
+        position: unset;
+        left: 0px; 
+    }
+    .image-1{
+        padding:10px 10px;
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+        text-align: center;
+        position: relative;
+        left: 35px; 
+    }
+    .form-1{
+        margin-top: 80px;
+        margin-right: 23px;
+        max-width: 505px;
+    }
+    .life{
+        max-width: 155px;
+        text-align: center;
+        position: relative;
+        left: 60px; 
+    }
+    .real{
+        max-width: 160px;
+        position: relative;
+        left: 30px;
+    }
+    .all{
+        max-width: 160px;
+        position: relative;
+        left: 30px;
+    }
+    .access{
+        max-width: 100px;
+        line-height: 0.5em;
+        margin-left: 90px;
+    }
+    .world{
+        max-width: 190px;
+        line-height: 0.0em;
+        margin-left: 10px;
+    }
+    .s-access{
+        line-height: 1.2em;
+    }
+    .from{
+        max-width: 150px;
+        line-height: 0.0em;
+        margin-left: 35px;
+    }
+    .fa-user{
+        position: absolute;
+        top: 100px;
+        left: 70px;
+        transform: translate(-50% -50%);
+    }
+    .fa-user{
+        position: absolute;
+        top: 180px;
+        left: 70px;
+        transform: translate(-50% -50%);
+    }
+    .fa-envelope{
+        position: absolute;
+        top: 250px;
+        left: 70px;
+        transform: translate(-50% -50%);
+    }
+    .fa-lock{
+        position: absolute;
+        top: 315px;
+        left: 70px;
+        transform: translate(-50% -50%);
+    }
+    .most-img{
+        height: 119px;
+    }
+
+    .money-2{
+        margin-left: -2px;
+    }
+    .connectivity-picture{
+        width:450px;
+        height:400px;
+    }
+    #bottom-logo{
+        padding-top:40px;
+    }
+
+   /*medium screen size*/   }
+    
+    /*large screen size*/
+    @media (min-width:992px){
+        .money-1{
+            padding-left: 5px;
+        }
+        .logo{
+            margin:24px;
+            margin-top:30px;
+        }
+        .demand{
+            /* padding: 130px 50px; */
+            padding-top:45px;
+            padding-bottom: 50px;
+            color: white; 
+            margin-right: -5px;        
+        } 
+        #grow{
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 1.5em;
+            padding-bottom: 15px;
+        }
+        #learn{
+            font-size:23px;
+            line-height: 1.5em;
+            font-weight: bold;
+        } 
+        .join{
+          position: unset;
+          top: unset;
+          padding-top: 90px;
+          font-size:30px
+        }
+        .small-screen{
+            margin-left:px;
+        }
+        .log{
+            padding-bottom: 10px;
+            border-radius: 6px;
+            background-color:transparent;
+            padding: 0px 23px;
+            font-weight: bold;
+            color: blue;
+        }
+        
+        .sign{
+            padding-bottom: 0px;
+            outline:none;
+            border:none;
+            border-radius: 6px;
+            background-color: orangered;
+            padding: 1px 23px;
+            font-weight: bold;
+        }
+        .image{
+            padding:10px 10px;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            position: unset;
+            left: unset; 
+        }
+        .image-1{
+            padding:10px 10px;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            position: unset;
+            left: unset; 
+        }
+        .life{
+            max-width: 310px;
+            position: relative;
+            left: 0px;
+        }
+        .real{
+            max-width: 300px;
+            position: unset;
+            left: unset;
+        }
+        .all{
+            max-width: 300px;
+            position: unset;
+            left: unset;
+        }
+        .access{
+            max-width:unset;
+            margin-left: 0px;
+        }
+        .world{
+            max-width: unset;
+            line-height: 0.5em;
+        }
+        .from{
+            max-width: unset;
+            line-height: unset;
+            margin-left: 0;
+        }
+        .fa-user{
+            position: absolute;
+            top: 180px;
+            left: 70px;
+            transform: translate(-50% -50%);
+        }
+        .fa-envelope{
+            position: absolute;
+            top: 250px;
+            left: 70px;
+            transform: translate(-50% -50%);
+        }
+        .fa-lock {
+            position: absolute;
+            top: 315px;
+            left: 70px;
+            transform: translate(-50% -50%);
+        }
+        .most-img{
+            height: 200px;
+        }
+        .connectivity-picture{
+            width:670px;
+            height:500px;
+        }
+        #bottom-logo{
+            padding-top:40px;
+        }
+        }
+    
+    
+    /*extra large screen size*/
+    @media (min-width:1300px){
+        .logo{
+            margin:24px;
+            margin-top:30px;
+        }
+        .demand{
+            /* padding: 130px 50px; */
+            padding-top:65px;
+            padding-bottom: 50px;
+            color: white;
+            margin-right: unset;
+            padding-left: 43px;        
+        } 
+        #grow{
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 1.5em;
+            padding-bottom: 15px;
+        }
+        #learn{
+            font-size:24px;
+            line-height: 1.5em;
+            font-weight: bold;
+        }
+        .join{
+            position: relative;
+            top: 30px;
+          }
+        /* .small-screen{
+            margin-top: 150px;
+            margin-left:110px;
+            width: 100%;
+        } */
+        .log{
+            padding-bottom: 10px;
+            border-radius: 6px;
+            background-color:transparent;
+            padding: 0px 23px;
+            font-weight: bold;
+            font-size: 14px;
+            color: blue;
+        }
+        
+        .sign{
+            padding-bottom: 0px;
+            outline:none;
+            border:none;
+            border-radius: 6px;
+            background-color: orangered;
+            padding: 0px 23px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .image{
+            padding:10px 10px;
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            position: unset;
+            left: unset; 
+        }
+        .image-1{
+            padding:10px 10px;
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            position: unset;
+            left: unset; 
+        }
+        .life{
+            max-width: 300px;
+            position: relative;
+            left: 30px;
+        }
+        .real{
+            max-width: 300px;
+            position: relative;
+            left: 17px;
+        }
+        .all{
+            max-width: 300px;
+            position: relative;
+            left: 30px;
+        }
+        .access{
+            max-width: unset;
+            margin-left: 0;
+        }
+        .hom{
+            padding-left: 252px;
+        }
+        .fa-user{
+            position: absolute;
+            top: 180px;
+            left: 70px;
+            transform: translate(-50% -50%);
+        }
+        .fa-envelope{
+            position: absolute;
+            top: 250px;
+            left: 70px;
+            transform: translate(-50% -50%);
+        }
+        .fa-lock{
+            position: absolute;
+            top: 315px;
+            left: 70px;
+            transform: translate(-50% -50%);
+        }
+        .money{
+            margin-left:42.5%;
+        }
+        .money-1{
+            padding-left: 5px;
+        }
+        
+        .connectivity-picture{
+            padding-top:50px;
+        }
+    }
+
+.log:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+  /*small screen and Extra small size*/
+/*@media (min-width:100px){
+    
+    .demand{
+        padding: 0px 50px;
+        padding-top: 50px;
+        color: white;
+        margin-bottom: 0px;
+}
+
+
+
+ } */
+
+ /*medium screen size*/
+ /* @media (min-width:768px){
+ 
+    
+    
+    
+   
+    .demand{
+        padding: 0px 50px;
+        color: white;
+        margin-bottom: 0px;
+    }
+ } */
+ 
+ /*large screen size*/
+ /* @media (min-width:992px){
+    .button-2{
+        padding-top:90px;
+    }
+    .small-screen{
+        margin-top: 150px;
+        margin-left:120px;
+    }
+   
+    
+    
+    .demand{
+        padding: 0px 50px;
+        color: white;
+        margin-bottom: 0px;
+    }  
+
+ }
+  */
+ 
+ /*extra large screen size*/
+ /* @media (min-width:1300px){
+     
+
+
+
+
+.card-row{
+    margin-left: 70px;
+}
+.demand{
+    padding: 130px 50px;
+    color: white;
+    margin-bottom: 0px;
+}
+ } */
+
+
+.card{
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#become{
+    font-size: 13.6px;
+    font-weight: 500;
+    color: #777777;
+    margin-bottom: 17px;
+}
+
+#xandriod{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(88, 85,85);
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+
+#star{
+    margin-left: 15px;
+    margin-bottom: 23px;
+    margin-right: 20px;
+}
+
+#star-1{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.overlay{
+    color: rgb(255, 18, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:rgb(255, 194, 183);
+    padding-bottom: 5px;
+    font-size: 14px;
+    width: 15px;
+    padding-right:12px;
+    padding-top: 3px;
+    border-radius: 50px; 
+    padding-left: 10px;
+}
+
+.overlay-1{
+    color: rgb(255, 18, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:rgb(255, 194, 183);
+    padding-bottom: 5px;
+    font-size: 14px;
+    width: 15px;
+    padding-right:12px;
+    padding-top: 3px;
+    border-radius: 50px; 
+    padding-left: 10px;
+}
+
+
+
+.gradient{background-image: url(../images/blue-violent-gradient.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 100px;
+} 
+ 
